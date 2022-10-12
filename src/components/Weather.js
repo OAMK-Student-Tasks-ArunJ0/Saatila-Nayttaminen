@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather?'
 const ICON_URL = 'https://openweathermap.org/img/wn/'
-const API_KEY = '1700b53f9551374a5908dcb9a88adfbe'
+const API_KEY = ''
 
 export default function Weather({latitude, longitude}) {
     const [temp, setTemp] = useState(0);
